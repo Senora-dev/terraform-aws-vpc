@@ -18,7 +18,7 @@ This Terraform module creates a VPC with a customizable network topology in AWS.
 
 ```hcl
 module "vpc" {
-  source = "path/to/terraform-aws-vpc"
+  source = "Senora-dev/vpc/aws"
 
   name = "my-vpc"
   vpc_cidr = "10.0.0.0/16"
